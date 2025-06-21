@@ -1,5 +1,5 @@
-import Home from '@pages/Home/Home';
 import Layout from '@pages/Layout/Layout';
+import Home from '@pages/Home/Home';
 
 const appRoutes = [
   {
