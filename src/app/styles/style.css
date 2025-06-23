@@ -26,4 +26,28 @@
   .text {
     @apply text-default-white;
   }
+
+  .main {
+    @apply relative w-full h-screen text-default-white;
+  }
+
+  .dailyBoxOfficeList {
+    @apply flex flex-col gap-2 absolute bottom-5 cursor-pointer w-full px-5;
+  }
+
+  .dailyBoxOfficeList__item {
+    @apply flex flex-row justify-between;
+  }
+
+  .dailyBoxOfficeList__item--rank {
+    @apply text-2xl;
+  }
+
+  .dailyBoxOfficeList__item--title {
+    @apply text-5xl;
+  }
+
+  .dailyBoxOfficeList__item--date {
+    @apply text-base;
+  }
 }
